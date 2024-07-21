@@ -1,0 +1,11 @@
+{
+  "name": "ordersenderapi",
+  "version": "1.0.0",
+  "description": "Sending Orders",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Hadi Hoteit",
+  "license": "ISC"
+}
