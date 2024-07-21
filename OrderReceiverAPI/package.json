@@ -1,0 +1,14 @@
+{
+  "name": "orderreceiverapi",
+  "version": "1.0.0",
+  "description": "Entry Point of the System",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Hadi Hoteit",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.4"
+  }
+}
