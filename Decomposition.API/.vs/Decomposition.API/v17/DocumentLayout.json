@@ -25,8 +25,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 12,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
@@ -65,8 +69,7 @@
               "RelativeToolTip": "..\\Decomposition.Worker\\Dtos\\OrderReadDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T15:58:09.096Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-05T15:58:09.096Z"
             },
             {
               "$type": "Document",
@@ -78,8 +81,7 @@
               "RelativeToolTip": "..\\Decomposition.Worker\\Mappers\\OrderToOrderReadDtoModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T15:56:45.601Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-05T15:56:45.601Z"
             },
             {
               "$type": "Document",
@@ -89,10 +91,9 @@
               "RelativeDocumentMoniker": "..\\Decomposition.Worker\\Worker.cs",
               "ToolTip": "C:\\copy stuff\\Uni\\Faks\\Diplomski Rad\\Project\\Decomposition.Worker\\Worker.cs",
               "RelativeToolTip": "..\\Decomposition.Worker\\Worker.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAgwCAAAAAAAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAYwBIAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-03T10:53:22.253Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-03T10:53:22.253Z"
             },
             {
               "$type": "Document",
@@ -104,8 +105,7 @@
               "RelativeToolTip": "..\\Decomposition.Worker\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T15:52:26.685Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-05T15:52:26.685Z"
             },
             {
               "$type": "Document",
@@ -115,7 +115,7 @@
               "RelativeDocumentMoniker": "..\\Decomposition.Worker\\Services\\MessagesHandler.cs",
               "ToolTip": "C:\\copy stuff\\Uni\\Faks\\Diplomski Rad\\Project\\Decomposition.Worker\\Services\\MessagesHandler.cs",
               "RelativeToolTip": "..\\Decomposition.Worker\\Services\\MessagesHandler.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAA5wBoAAAAMAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAA5wBcAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-05T15:51:40.617Z",
               "EditorCaption": ""

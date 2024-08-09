@@ -16,7 +16,7 @@ namespace Decomposition.Worker.Services
         private readonly IMapper _mapper;
         private readonly ILogger<MessagesHandler> _logger;
         private readonly string _hostname = "localhost";
-        private readonly string _queueName = "DecompositionQueue";
+        private readonly string _queueName = "CamundaQueue";
         public MessagesHandler(IMapper mapper, ILogger<MessagesHandler> logger)
         {
             _mapper = mapper;
