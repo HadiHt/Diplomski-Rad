@@ -1,0 +1,27 @@
+spring:
+  datasource:
+    url: jdbc:sqlserver://localhost:1433;database=Camunda;trustServerCertificate=true
+    username: sa
+    password: Hadi16611881
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+camunda:
+  bpm:
+    auto-deployment-enabled: true
+    admin-user:
+      id: demo
+      password: demo
+    database:
+      schema-update: true
+
+  # Optional: If you want to configure connection pool
+  datasource:
+    hikari:
+      maximum-pool-size: 10
+
+server:
+  port: 8081

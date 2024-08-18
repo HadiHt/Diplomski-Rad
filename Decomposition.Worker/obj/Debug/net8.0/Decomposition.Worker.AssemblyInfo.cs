@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Decomposition.Worker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+db10a3b98d3b67281d7d4a336bf4fc34d1aec616")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ad76bf9711bb8ed1ed275b159f50a4bbd3d319a8")]
 [assembly: System.Reflection.AssemblyProductAttribute("Decomposition.Worker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Decomposition.Worker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

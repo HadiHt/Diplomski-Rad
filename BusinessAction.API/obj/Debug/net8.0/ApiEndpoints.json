@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "BusinessAction.API.Controllers.BusinessActionController",
+    "Method": "ExecuteAction",
+    "RelativePath": "BusinessAction/Execute-Action",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BusinessAction.API.Models.CamundaRequestModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
