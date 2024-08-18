@@ -2,6 +2,7 @@ using AutoMapper;
 using Decomposition.Worker.Dtos;
 using Decomposition.Worker.Models;
 using Decomposition.Worker.Services;
+using Microsoft.Extensions.DependencyInjection;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 using System.Text;
@@ -12,24 +13,24 @@ namespace Decomposition.Worker
     public class Worker : BackgroundService
     {
         private readonly ILogger<Worker> _logger;
-        private readonly MessagesHandler _messagesHandler;
         private readonly IMapper _mapper;
+        private readonly IServiceProvider _serviceProvider;
         private IConnection _connection;
         private IModel _channel;
         private const string QueueName = "Order_Receiver_API";
 
-        public Worker(ILogger<Worker> logger, MessagesHandler messagesHandler, IMapper mapper)
+        public Worker(ILogger<Worker> logger, IMapper mapper, IServiceProvider serviceProvider)
         {
             _logger = logger;
-            _messagesHandler = messagesHandler;
             _mapper = mapper;
+            _serviceProvider = serviceProvider;
             InitializeRabbitMQListener();
-            _mapper = mapper;
         }
 
         private void InitializeRabbitMQListener()
         {
-            var factory = new ConnectionFactory { 
+            var factory = new ConnectionFactory
+            {
                 HostName = "localhost",
                 UserName = "guest",
                 Password = "guest"
@@ -39,14 +40,13 @@ namespace Decomposition.Worker
             _channel.QueueDeclare(queue: QueueName, durable: true, exclusive: false, autoDelete: false, arguments: null);
         }
 
-
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
         {
             _logger.LogInformation("Listening to RabbitMQ!");
             stoppingToken.Register(() => _logger.LogInformation("Stopping RabbitMQ listener..."));
 
             var consumer = new EventingBasicConsumer(_channel);
-            consumer.Received += (model, ea) =>
+            consumer.Received += async (model, ea) =>
             {
                 var body = ea.Body.ToArray();
                 if (body != null)
@@ -54,9 +54,14 @@ namespace Decomposition.Worker
                     var message = Encoding.UTF8.GetString(body);
                     var orderDto = JsonSerializer.Deserialize<OrderWriteDto>(message);
                     var order = _mapper.Map<Order>(orderDto);
-                    _messagesHandler.HandleOrder(order);
+
+                    // Create a new scope to resolve scoped services
+                    using (var scope = _serviceProvider.CreateScope())
+                    {
+                        var messagesHandler = scope.ServiceProvider.GetRequiredService<MessagesHandler>();
+                        await messagesHandler.HandleOrder(order);
+                    }
                 }
-                // Acknowledge the message
                 _channel.BasicAck(deliveryTag: ea.DeliveryTag, multiple: false);
             };
 
@@ -64,9 +69,10 @@ namespace Decomposition.Worker
 
             while (!stoppingToken.IsCancellationRequested)
             {
-                await Task.Delay(1000, stoppingToken); // Adding a delay to avoid tight loop
+                await Task.Delay(1000, stoppingToken);
             }
         }
+
         public override void Dispose()
         {
             _channel?.Close();

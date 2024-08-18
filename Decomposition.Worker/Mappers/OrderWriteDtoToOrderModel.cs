@@ -11,11 +11,13 @@ namespace Decomposition.Worker.Mappers
         {
             CreateMap<OrderWriteDto, Order>()
                 .ForMember(dest => dest.OrderId, opt => opt.MapFrom(src => Convert.ToInt32(src.Id)))
-                .ForMember(dest => dest.UserObject, opt => opt.MapFrom(src => SerializeUser(src.UserData)));
+                .ForMember(dest => dest.UserObject, opt => opt.MapFrom(src => SerializeUser(src.UserData)))
+                .ForMember(dest => dest.Major, opt => opt.MapFrom(src => src.Major));
 
             CreateMap<Order, OrderWriteDto>()
                 .ForMember(dest => dest.Id, opt => opt.MapFrom(src => src.OrderId.ToString()))
-                .ForMember(dest => dest.UserData, opt => opt.MapFrom(src => DeserializeUser(src.UserObject)));
+                .ForMember(dest => dest.UserData, opt => opt.MapFrom(src => DeserializeUser(src.UserObject)))
+                .ForMember(dest => dest.Major, opt => opt.MapFrom(src => src.Major));
         }
         private string SerializeUser(User user)
         {

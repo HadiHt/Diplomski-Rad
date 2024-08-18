@@ -4,15 +4,19 @@ const client = new net.Socket();
 const PORT = 6001;
 
 let jsonObject = {
-  "Id": "5",
+  "Id": "6",
   "OrderState":"New",
-  "OrderType": "Enrollment",
+  "OrderType": "Enrollment1",
+  "Major":"Computer Science",
+  "course":"Java",
   "UserData": 
     {
-      "name": "Silvija Hoteit",
-      "age": 22
+      "name": "Hadi Hoteit",
+      "age": 22,
+      "oib":123,
+      "dateOfBirth":"12-12-2000",
+      "email":"hadi.hoteit1664@example.com"
     }
-
 };
 
 

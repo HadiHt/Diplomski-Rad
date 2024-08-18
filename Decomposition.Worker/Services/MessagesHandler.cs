@@ -15,45 +15,48 @@ namespace Decomposition.Worker.Services
     {
         private readonly IMapper _mapper;
         private readonly ILogger<MessagesHandler> _logger;
+        private readonly CamundaService _camundaService;
         private readonly string _hostname = "localhost";
         private readonly string _queueName = "CamundaQueue";
-        public MessagesHandler(IMapper mapper, ILogger<MessagesHandler> logger)
+
+        public MessagesHandler(IMapper mapper, ILogger<MessagesHandler> logger, CamundaService camundaService)
         {
             _mapper = mapper;
             _logger = logger;
+            _camundaService = camundaService;
         }
-        public void HandleOrder(Order order)
+
+        public async Task<bool> HandleOrder(Order order)
         {
             Console.WriteLine($"Received Order: {order.OrderId}");
 
             var orderReadDto = _mapper.Map<OrderReadDto>(order);
-            PublishOrderReadDto(orderReadDto);
-        }
+            orderReadDto.Woid = (await _camundaService.GetNextWoidAsync()).ToString();
 
+            PublishOrderReadDto(orderReadDto);
+            return true;
+        }
 
         public void PublishOrderReadDto(OrderReadDto orderReadDto)
         {
             var factory = new ConnectionFactory()
             {
-                HostName = "localhost",
+                HostName = _hostname,
                 UserName = "guest",
                 Password = "guest"
             };
             using (var connection = factory.CreateConnection())
             using (var channel = connection.CreateModel())
             {
-                // Declare the queue (create if not exists)
                 channel.QueueDeclare(queue: _queueName,
                                      durable: true,
                                      exclusive: false,
                                      autoDelete: false,
                                      arguments: null);
 
-                // Serialize the OrderReadDto to JSON
                 var message = JsonSerializer.Serialize(orderReadDto);
                 var body = Encoding.UTF8.GetBytes(message);
 
-                // Publish the message
                 channel.BasicPublish(exchange: "",
                                      routingKey: _queueName,
                                      basicProperties: null,
@@ -63,4 +66,5 @@ namespace Decomposition.Worker.Services
             }
         }
     }
+
 }

@@ -3,7 +3,8 @@ const net = require('net');
 const amqp = require('amqplib');
 
 const PORT = 6001;
-const RABBITMQ_URL = 'amqp://localhost:5672'; // Correct RabbitMQ port
+const RABBITMQ_URL = 'amqp://localhost:5672';
+const QUEUE = 'Order_Receiver_API';
 
 console.log("Starting Receiver!");
 
@@ -27,7 +28,7 @@ if (cluster.isMaster) {
     try {
       const connection = await amqp.connect(RABBITMQ_URL);
       const channel = await connection.createChannel();
-      await channel.assertQueue('Order_Receiver_API', { durable: true });
+      await channel.assertQueue(QUEUE, { durable: true });
       return channel;
     } catch (error) {
       if (retries > 0) {
@@ -54,7 +55,7 @@ if (cluster.isMaster) {
 
       socket.on('end', () => {
         if (rabbitMQChannel) {
-          rabbitMQChannel.sendToQueue('Order_Receiver_API', Buffer.from(data), {
+          rabbitMQChannel.sendToQueue(QUEUE, Buffer.from(data), {
             persistent: true,
           });
         }

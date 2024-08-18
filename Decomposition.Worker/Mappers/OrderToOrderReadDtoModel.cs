@@ -21,7 +21,11 @@ namespace Decomposition.Worker.Mappers
                 .ForMember(dest => dest.OrderState, opt => opt.MapFrom(src => src.OrderState))
                 .ForMember(dest => dest.OrderType, opt => opt.MapFrom(src => src.OrderType))
                 .ForMember(dest => dest.TimeCreated, opt => opt.MapFrom(src => src.TimeCreated))
-                .ForMember(dest => dest.UserObject, opt => opt.MapFrom(src => DeserializeUser(src.UserObject)));
+                .ForMember(dest => dest.UserObject, opt => opt.MapFrom(src => DeserializeUser(src.UserObject)))
+                .ForMember(dest => dest.processDefinitionKey, opt => opt.MapFrom(src =>
+                src.OrderType == "Enrollment" || src.OrderType == "AddCourse"
+                ? "P01_StudentProvisioning"
+                : "P03_StudentGraduating"));
         }
 
         private User DeserializeUser(string userObject)

@@ -13,6 +13,10 @@ namespace Decomposition.Worker.Models
         public string OrderState { get; set; }
         [Required]
         public string OrderType { get; set; }
+        [Required]
+        public string Major { get; set; }
+        [Required]
+        public string course { get; set; }
 
         [Required]
         public DateTime TimeCreated { get; set; } = DateTime.Now;

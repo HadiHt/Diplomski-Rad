@@ -1,0 +1,218 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\copy stuff\\Uni\\Faks\\Diplomski Rad\\Project\\BusinessAction.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8BE43754-2DE3-4695-A116-887455713F2C}|BusinessAction.API.csproj|c:\\copy stuff\\uni\\faks\\diplomski rad\\project\\businessaction.api\\services\\actions\\p03actions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BE43754-2DE3-4695-A116-887455713F2C}|BusinessAction.API.csproj|solutionrelative:services\\actions\\p03actions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BE43754-2DE3-4695-A116-887455713F2C}|BusinessAction.API.csproj|c:\\copy stuff\\uni\\faks\\diplomski rad\\project\\businessaction.api\\models\\dbmodels\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BE43754-2DE3-4695-A116-887455713F2C}|BusinessAction.API.csproj|solutionrelative:models\\dbmodels\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BE43754-2DE3-4695-A116-887455713F2C}|BusinessAction.API.csproj|c:\\copy stuff\\uni\\faks\\diplomski rad\\project\\businessaction.api\\controllers\\businessactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BE43754-2DE3-4695-A116-887455713F2C}|BusinessAction.API.csproj|solutionrelative:controllers\\businessactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BE43754-2DE3-4695-A116-887455713F2C}|BusinessAction.API.csproj|c:\\copy stuff\\uni\\faks\\diplomski rad\\project\\businessaction.api\\repositories\\enrollementrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BE43754-2DE3-4695-A116-887455713F2C}|BusinessAction.API.csproj|solutionrelative:repositories\\enrollementrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BE43754-2DE3-4695-A116-887455713F2C}|BusinessAction.API.csproj|c:\\copy stuff\\uni\\faks\\diplomski rad\\project\\businessaction.api\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BE43754-2DE3-4695-A116-887455713F2C}|BusinessAction.API.csproj|solutionrelative:repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BE43754-2DE3-4695-A116-887455713F2C}|BusinessAction.API.csproj|c:\\copy stuff\\uni\\faks\\diplomski rad\\project\\businessaction.api\\services\\actions\\p02actions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BE43754-2DE3-4695-A116-887455713F2C}|BusinessAction.API.csproj|solutionrelative:services\\actions\\p02actions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BE43754-2DE3-4695-A116-887455713F2C}|BusinessAction.API.csproj|C:\\copy stuff\\Uni\\Faks\\Diplomski Rad\\Project\\BusinessAction.API\\services\\actions\\p01actions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BE43754-2DE3-4695-A116-887455713F2C}|BusinessAction.API.csproj|solutionrelative:services\\actions\\p01actions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BE43754-2DE3-4695-A116-887455713F2C}|BusinessAction.API.csproj|c:\\copy stuff\\uni\\faks\\diplomski rad\\project\\businessaction.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8BE43754-2DE3-4695-A116-887455713F2C}|BusinessAction.API.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BE43754-2DE3-4695-A116-887455713F2C}|BusinessAction.API.csproj|c:\\copy stuff\\uni\\faks\\diplomski rad\\project\\businessaction.api\\businessaction.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8BE43754-2DE3-4695-A116-887455713F2C}|BusinessAction.API.csproj|solutionrelative:businessaction.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BE43754-2DE3-4695-A116-887455713F2C}|BusinessAction.API.csproj|c:\\copy stuff\\uni\\faks\\diplomski rad\\project\\businessaction.api\\context\\universitycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BE43754-2DE3-4695-A116-887455713F2C}|BusinessAction.API.csproj|solutionrelative:context\\universitycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Enrollment.cs",
+              "DocumentMoniker": "C:\\copy stuff\\Uni\\Faks\\Diplomski Rad\\Project\\BusinessAction.API\\Models\\DBModels\\Enrollment.cs",
+              "RelativeDocumentMoniker": "Models\\DBModels\\Enrollment.cs",
+              "ToolTip": "C:\\copy stuff\\Uni\\Faks\\Diplomski Rad\\Project\\BusinessAction.API\\Models\\DBModels\\Enrollment.cs",
+              "RelativeToolTip": "Models\\DBModels\\Enrollment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T20:59:18.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "P03Actions.cs",
+              "DocumentMoniker": "C:\\copy stuff\\Uni\\Faks\\Diplomski Rad\\Project\\BusinessAction.API\\Services\\Actions\\P03Actions.cs",
+              "RelativeDocumentMoniker": "Services\\Actions\\P03Actions.cs",
+              "ToolTip": "C:\\copy stuff\\Uni\\Faks\\Diplomski Rad\\Project\\BusinessAction.API\\Services\\Actions\\P03Actions.cs",
+              "RelativeToolTip": "Services\\Actions\\P03Actions.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAkwD4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T20:52:05.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BusinessActionController.cs",
+              "DocumentMoniker": "C:\\copy stuff\\Uni\\Faks\\Diplomski Rad\\Project\\BusinessAction.API\\Controllers\\BusinessActionController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BusinessActionController.cs",
+              "ToolTip": "C:\\copy stuff\\Uni\\Faks\\Diplomski Rad\\Project\\BusinessAction.API\\Controllers\\BusinessActionController.cs",
+              "RelativeToolTip": "Controllers\\BusinessActionController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAmwA8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T20:49:05.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StudentRepository.cs",
+              "DocumentMoniker": "C:\\copy stuff\\Uni\\Faks\\Diplomski Rad\\Project\\BusinessAction.API\\Repositories\\StudentRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\StudentRepository.cs",
+              "ToolTip": "C:\\copy stuff\\Uni\\Faks\\Diplomski Rad\\Project\\BusinessAction.API\\Repositories\\StudentRepository.cs",
+              "RelativeToolTip": "Repositories\\StudentRepository.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAYwCkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T20:20:56.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EnrollementRepo.cs",
+              "DocumentMoniker": "C:\\copy stuff\\Uni\\Faks\\Diplomski Rad\\Project\\BusinessAction.API\\Repositories\\EnrollementRepo.cs",
+              "RelativeDocumentMoniker": "Repositories\\EnrollementRepo.cs",
+              "ToolTip": "C:\\copy stuff\\Uni\\Faks\\Diplomski Rad\\Project\\BusinessAction.API\\Repositories\\EnrollementRepo.cs",
+              "RelativeToolTip": "Repositories\\EnrollementRepo.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAmwCwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T19:50:10.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\copy stuff\\Uni\\Faks\\Diplomski Rad\\Project\\BusinessAction.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\copy stuff\\Uni\\Faks\\Diplomski Rad\\Project\\BusinessAction.API\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAACLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-18T15:11:11.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BusinessAction.API",
+              "DocumentMoniker": "C:\\copy stuff\\Uni\\Faks\\Diplomski Rad\\Project\\BusinessAction.API\\BusinessAction.API.csproj",
+              "RelativeDocumentMoniker": "BusinessAction.API.csproj",
+              "ToolTip": "C:\\copy stuff\\Uni\\Faks\\Diplomski Rad\\Project\\BusinessAction.API\\BusinessAction.API.csproj",
+              "RelativeToolTip": "BusinessAction.API.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-18T15:02:55.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "P01Actions.cs",
+              "DocumentMoniker": "C:\\copy stuff\\Uni\\Faks\\Diplomski Rad\\Project\\BusinessAction.API\\Services\\Actions\\P01Actions.cs",
+              "RelativeDocumentMoniker": "Services\\Actions\\P01Actions.cs",
+              "ToolTip": "C:\\copy stuff\\Uni\\Faks\\Diplomski Rad\\Project\\BusinessAction.API\\Services\\Actions\\P01Actions.cs",
+              "RelativeToolTip": "Services\\Actions\\P01Actions.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAYwDcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T21:21:17.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "P02Actions.cs",
+              "DocumentMoniker": "C:\\copy stuff\\Uni\\Faks\\Diplomski Rad\\Project\\BusinessAction.API\\Services\\Actions\\P02Actions.cs",
+              "RelativeDocumentMoniker": "Services\\Actions\\P02Actions.cs",
+              "ToolTip": "C:\\copy stuff\\Uni\\Faks\\Diplomski Rad\\Project\\BusinessAction.API\\Services\\Actions\\P02Actions.cs",
+              "RelativeToolTip": "Services\\Actions\\P02Actions.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwB4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T21:19:15.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UniversityContext.cs",
+              "DocumentMoniker": "C:\\copy stuff\\Uni\\Faks\\Diplomski Rad\\Project\\BusinessAction.API\\Context\\UniversityContext.cs",
+              "RelativeDocumentMoniker": "Context\\UniversityContext.cs",
+              "ToolTip": "C:\\copy stuff\\Uni\\Faks\\Diplomski Rad\\Project\\BusinessAction.API\\Context\\UniversityContext.cs",
+              "RelativeToolTip": "Context\\UniversityContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T15:01:35.695Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

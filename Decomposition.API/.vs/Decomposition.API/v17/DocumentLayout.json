@@ -3,7 +3,16 @@
   "WorkspaceRootPath": "C:\\copy stuff\\Uni\\Faks\\Diplomski Rad\\Project\\Decomposition.API\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B7B12CB7-0890-4664-A2F8-1BA81E14B5DC}|..\\Decomposition.Worker\\Decomposition.Worker.csproj|c:\\copy stuff\\uni\\faks\\diplomski rad\\project\\decomposition.worker\\mappers\\ordertoorderreaddtomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7B12CB7-0890-4664-A2F8-1BA81E14B5DC}|..\\Decomposition.Worker\\Decomposition.Worker.csproj|c:\\copy stuff\\uni\\faks\\diplomski rad\\project\\decomposition.worker\\services\\camundaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B7B12CB7-0890-4664-A2F8-1BA81E14B5DC}|..\\Decomposition.Worker\\Decomposition.Worker.csproj|c:\\copy stuff\\uni\\faks\\diplomski rad\\project\\decomposition.worker\\services\\messageshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7B12CB7-0890-4664-A2F8-1BA81E14B5DC}|..\\Decomposition.Worker\\Decomposition.Worker.csproj|c:\\copy stuff\\uni\\faks\\diplomski rad\\project\\decomposition.worker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B7B12CB7-0890-4664-A2F8-1BA81E14B5DC}|..\\Decomposition.Worker\\Decomposition.Worker.csproj|c:\\copy stuff\\uni\\faks\\diplomski rad\\project\\decomposition.worker\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -12,10 +21,10 @@
       "AbsoluteMoniker": "D:0:0:{B7B12CB7-0890-4664-A2F8-1BA81E14B5DC}|..\\Decomposition.Worker\\Decomposition.Worker.csproj|c:\\copy stuff\\uni\\faks\\diplomski rad\\project\\decomposition.worker\\dtos\\orderreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7B12CB7-0890-4664-A2F8-1BA81E14B5DC}|..\\Decomposition.Worker\\Decomposition.Worker.csproj|c:\\copy stuff\\uni\\faks\\diplomski rad\\project\\decomposition.worker\\mappers\\ordertoorderreaddtomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B7B12CB7-0890-4664-A2F8-1BA81E14B5DC}|..\\Decomposition.Worker\\Decomposition.Worker.csproj|c:\\copy stuff\\uni\\faks\\diplomski rad\\project\\decomposition.worker\\dtos\\userwritedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7B12CB7-0890-4664-A2F8-1BA81E14B5DC}|..\\Decomposition.Worker\\Decomposition.Worker.csproj|c:\\copy stuff\\uni\\faks\\diplomski rad\\project\\decomposition.worker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B7B12CB7-0890-4664-A2F8-1BA81E14B5DC}|..\\Decomposition.Worker\\Decomposition.Worker.csproj|c:\\copy stuff\\uni\\faks\\diplomski rad\\project\\decomposition.worker\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,10 +36,6 @@
           "DockedWidth": 200,
           "SelectedChildIndex": 12,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
@@ -61,63 +66,106 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "OrderReadDto.cs",
-              "DocumentMoniker": "C:\\copy stuff\\Uni\\Faks\\Diplomski Rad\\Project\\Decomposition.Worker\\Dtos\\OrderReadDto.cs",
-              "RelativeDocumentMoniker": "..\\Decomposition.Worker\\Dtos\\OrderReadDto.cs",
-              "ToolTip": "C:\\copy stuff\\Uni\\Faks\\Diplomski Rad\\Project\\Decomposition.Worker\\Dtos\\OrderReadDto.cs",
-              "RelativeToolTip": "..\\Decomposition.Worker\\Dtos\\OrderReadDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA6AAAA",
+              "DocumentIndex": 1,
+              "Title": "CamundaService.cs",
+              "DocumentMoniker": "C:\\copy stuff\\Uni\\Faks\\Diplomski Rad\\Project\\Decomposition.Worker\\Services\\CamundaService.cs",
+              "RelativeDocumentMoniker": "..\\Decomposition.Worker\\Services\\CamundaService.cs",
+              "ToolTip": "C:\\copy stuff\\Uni\\Faks\\Diplomski Rad\\Project\\Decomposition.Worker\\Services\\CamundaService.cs",
+              "RelativeToolTip": "..\\Decomposition.Worker\\Services\\CamundaService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAIwBMAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T15:58:09.096Z"
+              "WhenOpened": "2024-08-18T15:18:48.979Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "OrderToOrderReadDtoModel.cs",
-              "DocumentMoniker": "C:\\copy stuff\\Uni\\Faks\\Diplomski Rad\\Project\\Decomposition.Worker\\Mappers\\OrderToOrderReadDtoModel.cs",
-              "RelativeDocumentMoniker": "..\\Decomposition.Worker\\Mappers\\OrderToOrderReadDtoModel.cs",
-              "ToolTip": "C:\\copy stuff\\Uni\\Faks\\Diplomski Rad\\Project\\Decomposition.Worker\\Mappers\\OrderToOrderReadDtoModel.cs",
-              "RelativeToolTip": "..\\Decomposition.Worker\\Mappers\\OrderToOrderReadDtoModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T15:56:45.601Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Worker.cs",
-              "DocumentMoniker": "C:\\copy stuff\\Uni\\Faks\\Diplomski Rad\\Project\\Decomposition.Worker\\Worker.cs",
-              "RelativeDocumentMoniker": "..\\Decomposition.Worker\\Worker.cs",
-              "ToolTip": "C:\\copy stuff\\Uni\\Faks\\Diplomski Rad\\Project\\Decomposition.Worker\\Worker.cs",
-              "RelativeToolTip": "..\\Decomposition.Worker\\Worker.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAYwBIAAAA8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-03T10:53:22.253Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\copy stuff\\Uni\\Faks\\Diplomski Rad\\Project\\Decomposition.Worker\\Program.cs",
               "RelativeDocumentMoniker": "..\\Decomposition.Worker\\Program.cs",
               "ToolTip": "C:\\copy stuff\\Uni\\Faks\\Diplomski Rad\\Project\\Decomposition.Worker\\Program.cs",
               "RelativeToolTip": "..\\Decomposition.Worker\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T15:52:26.685Z"
+              "WhenOpened": "2024-08-18T15:21:11.083Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MessagesHandler.cs",
               "DocumentMoniker": "C:\\copy stuff\\Uni\\Faks\\Diplomski Rad\\Project\\Decomposition.Worker\\Services\\MessagesHandler.cs",
               "RelativeDocumentMoniker": "..\\Decomposition.Worker\\Services\\MessagesHandler.cs",
               "ToolTip": "C:\\copy stuff\\Uni\\Faks\\Diplomski Rad\\Project\\Decomposition.Worker\\Services\\MessagesHandler.cs",
               "RelativeToolTip": "..\\Decomposition.Worker\\Services\\MessagesHandler.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAA5wBcAAAAJAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAUwCwAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T15:51:40.617Z",
+              "WhenOpened": "2024-08-18T13:55:48.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrderReadDto.cs",
+              "DocumentMoniker": "C:\\copy stuff\\Uni\\Faks\\Diplomski Rad\\Project\\Decomposition.Worker\\Dtos\\OrderReadDto.cs",
+              "RelativeDocumentMoniker": "..\\Decomposition.Worker\\Dtos\\OrderReadDto.cs",
+              "ToolTip": "C:\\copy stuff\\Uni\\Faks\\Diplomski Rad\\Project\\Decomposition.Worker\\Dtos\\OrderReadDto.cs",
+              "RelativeToolTip": "..\\Decomposition.Worker\\Dtos\\OrderReadDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T15:17:54.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserWriteDto.cs",
+              "DocumentMoniker": "C:\\copy stuff\\Uni\\Faks\\Diplomski Rad\\Project\\Decomposition.Worker\\Dtos\\UserWriteDto.cs",
+              "RelativeDocumentMoniker": "..\\Decomposition.Worker\\Dtos\\UserWriteDto.cs",
+              "ToolTip": "C:\\copy stuff\\Uni\\Faks\\Diplomski Rad\\Project\\Decomposition.Worker\\Dtos\\UserWriteDto.cs",
+              "RelativeToolTip": "..\\Decomposition.Worker\\Dtos\\UserWriteDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T14:16:21.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderToOrderReadDtoModel.cs",
+              "DocumentMoniker": "C:\\copy stuff\\Uni\\Faks\\Diplomski Rad\\Project\\Decomposition.Worker\\Mappers\\OrderToOrderReadDtoModel.cs",
+              "RelativeDocumentMoniker": "..\\Decomposition.Worker\\Mappers\\OrderToOrderReadDtoModel.cs",
+              "ToolTip": "C:\\copy stuff\\Uni\\Faks\\Diplomski Rad\\Project\\Decomposition.Worker\\Mappers\\OrderToOrderReadDtoModel.cs",
+              "RelativeToolTip": "..\\Decomposition.Worker\\Mappers\\OrderToOrderReadDtoModel.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwBsAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T15:56:45.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Worker.cs",
+              "DocumentMoniker": "C:\\copy stuff\\Uni\\Faks\\Diplomski Rad\\Project\\Decomposition.Worker\\Worker.cs",
+              "RelativeDocumentMoniker": "..\\Decomposition.Worker\\Worker.cs",
+              "ToolTip": "C:\\copy stuff\\Uni\\Faks\\Diplomski Rad\\Project\\Decomposition.Worker\\Worker.cs",
+              "RelativeToolTip": "..\\Decomposition.Worker\\Worker.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAiwFEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T10:53:22.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\copy stuff\\Uni\\Faks\\Diplomski Rad\\Project\\Decomposition.Worker\\Models\\User.cs",
+              "RelativeDocumentMoniker": "..\\Decomposition.Worker\\Models\\User.cs",
+              "ToolTip": "C:\\copy stuff\\Uni\\Faks\\Diplomski Rad\\Project\\Decomposition.Worker\\Models\\User.cs",
+              "RelativeToolTip": "..\\Decomposition.Worker\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T14:12:26.304Z",
               "EditorCaption": ""
             }
           ]
